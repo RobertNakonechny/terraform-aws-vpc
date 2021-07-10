@@ -2,6 +2,8 @@
 
 Please copy paste the following code
 
+```
+
 module "app_name" {
     source = "RobertNakonechny/vpc/aws"
     region        = "us-east-1"
@@ -20,3 +22,5 @@ module "app_name" {
         AppName = "Wordpress"
     }
 }
+
+```
